@@ -9,6 +9,13 @@
         - an array of trigger characters the mentions will respond to, which you can associate to either the same dataset or multiple different datasets using ***onDataRequest***. (default ['@'])
 * By setting ***minChars*** to 0, **mentionsInput** will now display the list of mentionable items instantly, limited to the maximum number of results set in **maxResults**. 
 
+##### Fixed
+
+* Fixes issues with using trigger characters mid@sentence.
+* Fixes issues with space not being treated as a searchable character
+* Fixes issues with using keystrokes and mouse clicks to move the cursor whilst mentions is open.
+* Fixes a few minor bugs when mentioning things which contain trigger characters, and mentioning things in brackets
+
 ##### Removed
 
 * *(string)* **triggerChar**: This has been replaced with *(array)* **triggerChars**. 
