@@ -2,12 +2,6 @@
 
 ### 1.1
 
-##### Added
-
-## Change Log
-
-### 1.1
-
 #### Added
 
 * You can now provide an array of trigger characters to handle multiple datasets (e.g.: '**@**' for people, '**#**' for records, '**$**' for products, etc.)
